@@ -11,6 +11,7 @@ python caller.py my arguments
 caller.py first runs script.py passing 'some' and 'args' as arguments
 
 ```python
+import subprocess
 subprocess.run(['python', 'script.py', 'some', 'args'])
 ```
 
